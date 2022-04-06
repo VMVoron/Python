@@ -1,2 +1,6 @@
 name = input('Enter your name: ')
 print('Hello ', name)
+
+a = int(input())
+b = int(input())
+print(a * b)
