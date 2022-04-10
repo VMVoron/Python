@@ -1,2 +1,2 @@
 # First_steps
-First steps on Python
+Here I collect my First steps on Python 3.10 
