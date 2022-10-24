@@ -151,7 +151,7 @@ nx.draw(G, node_color='red', edge_color='#191a19', node_size=1, with_labels=Fals
 plt.show()
 ```
 
-![Image alt]([https://github.com/VMVoron/First_steps/issues/1#issue-1421580435](https://user-images.githubusercontent.com/103144367/197645495-2d5aa951-aa06-44cc-810f-a5e80f6fe5b4.png](https://user-images.githubusercontent.com/103144367/197645495-2d5aa951-aa06-44cc-810f-a5e80f6fe5b4.png))   
+![Image alt](https://ibb.co/LQ1P06F)   
     
 
 Попробуем выделить группы друзей внутри графа и раскрасить их в разные цвета
@@ -187,8 +187,7 @@ nx.draw(G, node_color=colormap, edge_color='#191a19', node_size=2, with_labels=F
 ```
 
 
-![Image alt](https://github.com/VMVoron/First_steps/blob/Python-Stepik/output_19_0.pngg)   
-![png](output_19_0.png)
+![Image alt](https://ibb.co/hWTpvjC)
     
 
 
