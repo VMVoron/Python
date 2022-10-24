@@ -151,7 +151,7 @@ nx.draw(G, node_color='red', edge_color='#191a19', node_size=1, with_labels=Fals
 plt.show()
 ```
 
-![Image alt](https://i.ibb.co/GsRJdk6/output-15-0.png)   
+![Image alt](https://i.ibb.co/GsRJdk6/output-15-0.png)
     
 
 Попробуем выделить группы друзей внутри графа и раскрасить их в разные цвета
