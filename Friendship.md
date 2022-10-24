@@ -152,7 +152,7 @@ plt.show()
 ```
 
 
-    
+![Image alt](https://github.com/VMVoron/First_steps/raw/Python-Stepik/output_15_0.png)    
 ![png](output_15_0.png)
     
 
@@ -189,7 +189,7 @@ nx.draw(G, node_color=colormap, edge_color='#191a19', node_size=2, with_labels=F
 ```
 
 
-    
+![Image alt](https://github.com/VMVoron/First_steps/raw/Python-Stepik/output_19_0.png)   
 ![png](output_19_0.png)
     
 
