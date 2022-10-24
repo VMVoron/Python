@@ -5,14 +5,6 @@
 !pip install requests   #подключаем библиотеку запросов
 ```
 
-    Requirement already satisfied: requests in c:\programdata\anaconda3\lib\site-packages (2.26.0)
-    Requirement already satisfied: certifi>=2017.4.17 in c:\programdata\anaconda3\lib\site-packages (from requests) (2021.10.8)
-    Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\programdata\anaconda3\lib\site-packages (from requests) (1.26.7)
-    Requirement already satisfied: charset-normalizer~=2.0.0 in c:\programdata\anaconda3\lib\site-packages (from requests) (2.0.4)
-    Requirement already satisfied: idna<4,>=2.5 in c:\programdata\anaconda3\lib\site-packages (from requests) (3.2)
-    
-
-
 ```python
 import requests
 import pandas as pd
