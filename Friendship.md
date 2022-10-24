@@ -187,7 +187,7 @@ nx.draw(G, node_color=colormap, edge_color='#191a19', node_size=2, with_labels=F
 ```
 
 
-![Image alt](https://ibb.co/hWTpvjC)
+![Image alt](https://i.ibb.co/QNxsGRX/output-19-0.png)
     
 
 
