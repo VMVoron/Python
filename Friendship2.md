@@ -157,8 +157,8 @@ plt.show()
 ```
 
 
-    
-![png](output_17_0.png)
+ 
+![png](https://i.ibb.co/FVqw233/output-17-0.png)
     
 
 
@@ -186,9 +186,8 @@ nx.draw_networkx_nodes(hub_ego, pos, nodelist=[largest_hub], **options)
 plt.show()
 ```
 
-
     
-![png](output_20_0.png)
+![png](https://i.ibb.co/dBFrqwQ/output-20-0.png)
     
 
 Попробуем выделить группы друзей внутри графа и раскрасить их в разные цвета
@@ -238,7 +237,7 @@ plt.show()
 
 
     
-![png](output_24_0.png)
+![png](https://i.ibb.co/rfJCkJx/output-24-0.png)
     
 
 
