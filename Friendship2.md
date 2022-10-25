@@ -234,8 +234,6 @@ options = {"node_size": 300, "node_color": "r"}
 nx.draw_networkx_nodes(hub_ego, pos, nodelist=[largest_hub], **options)
 plt.show()
 ```
-
-
     
 ![png](https://i.ibb.co/rfJCkJx/output-24-0.png)
     
