@@ -15,13 +15,13 @@ CREATE TABLE IF NOT EXISTS posts AS SELECT ABS(owner_id) AS gruppa, AVG(views) A
 CREATE TABLE IF NOT EXISTS org_codes AS SELECT id AS gruppa, organization_2 AS code, name FROM organizations_final_codes WHERE code IN (67, 68, 69);
 CREATE TABLE IF NOT EXISTS graph AS SELECT * FROM comments LEFT JOIN posts ON comments.gruppa = posts.gruppa LEFT JOIN org_codes on comments.gruppa = org_codes.gruppa;
 ```
-```
-```
 Сохранить изменения: Ctrl+S
 ```
+Ctrl+S
 ```
 Если в создании таблиц что-то пошло не так, удалить таблицу можно коммандой: DROP TABLE название таблицы
-```
+```SQL
+DROP TABLE table_example;
 ```
 Следите, чтобы в конце запросов всегда был знак ";"
 
