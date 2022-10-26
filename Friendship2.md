@@ -24,7 +24,7 @@ User_id - индентикифатор пользователя, вокруг к
 
 ```python
 domain = "https://api.vk.com/method/friends.get"
-access_token = "vk1.a.tbNyNOG-GYNazTuMf-fVHZVyULCj_DG35Ws6WNWouoUnWy5ZxeVaIwfzeyvWqxXwM5Arse5sahwv_nFtz61Wg6raOJCP9lwheE868lvc1HB08eLggrykNeIa2ZiLzwEp22gH1ub8B9zpPjtKfDgt_pcOrHoT9hya3DKigtegLceDpJ0qRnN_ftvvFfiikKEcRVhbD8YII_fT3MEF84KsGQ"
+access_token = "xxxxxxxxx"
 user_id = 48166591
 
 query_params = {
@@ -97,7 +97,7 @@ import time
 
 ```python
 domain = "https://api.vk.com/method/friends.getMutual"
-access_token = "vk1.a.tbNyNOG-GYNazTuMf-fVHZVyULCj_DG35Ws6WNWouoUnWy5ZxeVaIwfzeyvWqxXwM5Arse5sahwv_nFtz61Wg6raOJCP9lwheE868lvc1HB08eLggrykNeIa2ZiLzwEp22gH1ub8B9zpPjtKfDgt_pcOrHoT9hya3DKigtegLceDpJ0qRnN_ftvvFfiikKEcRVhbD8YII_fT3MEF84KsGQ"
+access_token = "xxxxxx"
 for i in idz:
     query_params = {
         'domain' : domain,
