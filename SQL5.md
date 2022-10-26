@@ -160,7 +160,7 @@ nx.draw(G, node_color=colormap, node_size = nodesizes, width=weights)
 
 
     
-![png](output_24_0.png)
+![png](https://i.ibb.co/7YBLnXr/output-24-0.png)
     
 
 
