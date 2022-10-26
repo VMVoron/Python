@@ -88,7 +88,7 @@ G = nx.Graph()
 Добавим вершины (nodes) и ребра (edges), а также их атрибуты
 Документацию можно найти по адресу: https://networkx.org/documentation/stable/tutorial.html
 Толщина линии -  количество связей
-Размер крпуга - число просмотров 
+Размер круга - число просмотров 
 
 ```python
 for i in range(len(spisok)): 
