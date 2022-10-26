@@ -7,12 +7,12 @@
 ```
 ```
 Написать код:
-```
-```
+```SQL
 CREATE TABLE IF NOT EXISTS comments AS SELECT ID_vk AS gruppa, ABS(owner_id) AS party, COUNT(owner_id) as party_cnt FROM comments_links_final WHERE gruppa IS NOT NULL GROUP BY gruppa, party ORDER BY gruppa  DESC;
 CREATE TABLE IF NOT EXISTS posts AS SELECT ABS(owner_id) AS gruppa, AVG(views) AS aver_gr_views FROM interest_groups_posts WHERE date BETWEEN '2018-03-18 23:59:59' AND '2019-05-02 23:59:59' GROUP BY gruppa ORDER BY gruppa DESC;
 CREATE TABLE IF NOT EXISTS org_codes AS SELECT id AS gruppa, organization_2 AS code, name FROM organizations_final_codes WHERE code IN (67, 68, 69);
 CREATE TABLE IF NOT EXISTS graph AS SELECT * FROM comments LEFT JOIN posts ON comments.gruppa = posts.gruppa LEFT JOIN org_codes on comments.gruppa = org_codes.gruppa;
+```
 ```
 ```
 Сохранить изменения: Ctrl+S
