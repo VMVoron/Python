@@ -1,6 +1,6 @@
 Открыть DB Browser for SQLite3
 Сtrl + O
-Выбрать исходный файл базы данных '\n'
+Выбрать исходный файл базы данных \n
 Открыть вкладку "SQL"
 Написать код:CREATE TABLE IF NOT EXISTS comments AS SELECT ID_vk AS gruppa, ABS(owner_id) AS party, COUNT(owner_id) as party_cnt FROM comments_links_final WHERE gruppa IS NOT NULL GROUP BY gruppa, party ORDER BY gruppa  DESC;
 CREATE TABLE IF NOT EXISTS posts AS SELECT ABS(owner_id) AS gruppa, AVG(views) AS aver_gr_views FROM interest_groups_posts WHERE date BETWEEN '2018-03-18 23:59:59' AND '2019-05-02 23:59:59' GROUP BY gruppa ORDER BY gruppa DESC;
