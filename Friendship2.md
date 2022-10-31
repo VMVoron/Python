@@ -235,7 +235,7 @@ nx.draw_networkx_nodes(hub_ego, pos, nodelist=[largest_hub], **options)
 plt.show()
 ```
     
-![png](https://i.ibb.co/rfJCkJx/output-24-0.png)
+![png](https://i.postimg.cc/9ftk3Fmh/output-24-0.png)
     
 
 
