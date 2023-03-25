@@ -360,9 +360,12 @@ len(author) == len(year) == len(page) == len(volume)
 ```python
 exit()
 ```
+```python
+Пример ошибки 
 Pin, S.C., Haron, F., Sarmady, S., Talib, A.Z., Khader, A.T., Applying TRIZ principles in crowd management (2011) Safety Science, 49 (2), pp. 286-291 ('Pin', 2011, '', 49, 16801)
 Clarke, M., China’s Strategy in ‘Greater Central Asia’: Is Afghanistan the Missing Link? (2013) Asian Affairs: An American Review, 40 (1), pp. 1-19 ('Clarke', 2013, 40, 1, 17201)Общая структура алгоритма 
-
+```
+```python
 for row in rows:
     
     match_author = re.search(regex_author, str(row[1]))
@@ -431,7 +434,9 @@ for i in range(len([0]*10000)):
     else:
         volume.append('')
 
-    print(st, aut, vol)Точки для улучшения:
+    print(st, aut, vol)
+    ```
+ Точки для улучшения:
     - использовать инструенты для больших данных, например pyspark в случае переполнения памяти
     - сразу указывать типа данных при чтении(id: int)
     - использовать распарралеливание процесса обновления БД на два потока
