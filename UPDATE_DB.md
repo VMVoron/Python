@@ -366,6 +366,7 @@ Pin, S.C., Haron, F., Sarmady, S., Talib, A.Z., Khader, A.T., Applying TRIZ prin
 Clarke, M., China’s Strategy in ‘Greater Central Asia’: Is Afghanistan the Missing Link? (2013) Asian Affairs: An American Review, 40 (1), pp. 1-19 ('Clarke', 2013, 40, 1, 17201)Общая структура алгоритма 
 ```
 ```python
+Общая структура алгоритма
 for row in rows:
     
     match_author = re.search(regex_author, str(row[1]))
@@ -395,8 +396,12 @@ for row in rows:
     
     cursor.execute("UPDATE ref SET author=?, year=?, volume=?, page=? WHERE reference=?", 
                    (author, year, volume, page, row[1]))
-    conn.commit()Блок для проверки изменений 
-
+    conn.commit()
+    
+    
+```
+```python
+Блок для отладкки
 
 #author_re = re.compile(r"^([\w-]+),")
 #author_re = re.compile(r"(.*?),\s*(\b[A-Z]\.?[A-Z]?\.?)")
@@ -435,7 +440,7 @@ for i in range(len([0]*10000)):
         volume.append('')
 
     print(st, aut, vol)
-    ```
+ ```
  Точки для улучшения:
     - использовать инструенты для больших данных, например pyspark в случае переполнения памяти
     - сразу указывать типа данных при чтении(id: int)
